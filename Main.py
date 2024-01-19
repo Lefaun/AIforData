@@ -1,6 +1,6 @@
 #Import required libraries
 import os 
-from ApiKey import apikey 
+from OPENAI_API_KEY import apikey 
 
 import streamlit as st
 import pandas as pd
