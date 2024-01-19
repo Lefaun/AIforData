@@ -1,6 +1,6 @@
 #Import required libraries
 import os 
-from ApiKey import apikey 
+#from ApiKey import apikey 
 
 import streamlit as st
 import pandas as pd
@@ -50,7 +50,7 @@ import streamlit.components.v1 as components
 from dotenv import load_dotenv, find_dotenv
 
 #OpenAIKey
-os.environ['OPENAI_API_KEY'] = apikey
+os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 load_dotenv(find_dotenv())
 
 #Titulo 1
