@@ -48,7 +48,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from dotenv import load_dotenv, find_dotenv
-st.secrets["apikey"]
+
 #OpenAIKey
 os.environ['OPENAI_API_KEY'] = apikey
 load_dotenv(find_dotenv())
