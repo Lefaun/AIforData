@@ -1,5 +1,8 @@
 #Import required libraries
-import os 
+import os
+os.environ['OPENAI_KEY']
+#load_dotenv(find_dotenv())
+os.environ.get('OPENAI_KEY')
 #from Apikey import apikey 
 
 import streamlit as st
@@ -11,9 +14,7 @@ from langchain_experimental.agents import create_pandas_dataframe_agent
 #########New Libraries
 import os
 
-os.environ['OPENAI_KEY']
-#load_dotenv(find_dotenv())
-os.environ.get('OPENAI_KEY')
+
 from langchain.prompts import PromptTemplate
 #from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
 #from langchain.agents.agent_toolkits import create_python_agent
