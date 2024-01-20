@@ -1,6 +1,6 @@
 #Import required libraries
 import os 
-from Apikey import apikey 
+#from Apikey import apikey 
 
 import streamlit as st
 import pandas as pd
@@ -9,7 +9,10 @@ import matplotlib.pyplot as plt
 from langchain.llms import OpenAI
 from langchain_experimental.agents import create_pandas_dataframe_agent
 #########New Libraries
+import os
 
+os.environ['OPENAI_KEY']
+#os.environ.get('OPENAI_KEY')
 from langchain.prompts import PromptTemplate
 #from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
 #from langchain.agents.agent_toolkits import create_python_agent
