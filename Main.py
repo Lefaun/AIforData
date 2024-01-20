@@ -1,9 +1,9 @@
 #Import required libraries
 import os
-OPENAI_KEY=os.environ['OPENAI_KEY']
+os.environ['OPENAI_KEY']
 
-OPENAI_KEY=os.environ.get('OPENAI_KEY')
-load_dotenv(find_dotenv())
+os.environ.get('OPENAI_KEY')
+#load_dotenv(find_dotenv())
 #from Apikey import apikey 
 
 import streamlit as st
