@@ -1,8 +1,10 @@
 #Import required libraries
 import os
-os.environ['OPENAI_KEY']
+#os.environ['OPENAI_KEY']
+from openai import OpenAI
 
-os.environ.get('OPENAI_KEY')
+client = OpenAI()
+#os.environ.get('OPENAI_KEY')
 #load_dotenv(find_dotenv())
 #from Apikey import apikey 
 
