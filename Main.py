@@ -13,7 +13,7 @@ import os
 
 os.environ['OPENAI_KEY']
 load_dotenv(find_dotenv())
-#os.environ.get('OPENAI_KEY')
+os.environ.get('OPENAI_KEY')
 from langchain.prompts import PromptTemplate
 #from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
 #from langchain.agents.agent_toolkits import create_python_agent
