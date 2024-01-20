@@ -2,7 +2,7 @@
 import os
 #os.environ['OPENAI_KEY']
 
-os.environ.get('OPENAI_KEY')
+os.environ.get('OPEN_AI_KEY')
 #load_dotenv(find_dotenv())
 #from Apikey import apikey 
 
