@@ -11,7 +11,7 @@ from langchain_experimental.agents import create_pandas_dataframe_agent
 #########New Libraries
 import os
 
-os.environ['OPENAI_KEY']==st.secrets['OPENAI_KEY']
+os.environ['OPENAI_KEY']
 #load_dotenv(find_dotenv())
 os.environ.get('OPENAI_KEY')
 from langchain.prompts import PromptTemplate
